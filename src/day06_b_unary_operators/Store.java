@@ -4,7 +4,7 @@ public class Store {
     public static void main (String []arg){
 
 
-        String Store = 'Target';
+        //TO DO: String Store = 'Target';
         int numberOfTv = 100;
 
     }

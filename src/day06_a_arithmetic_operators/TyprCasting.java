@@ -11,20 +11,22 @@ public class TyprCasting {
 
         System.out.println(b);
         System.out.println(i);
+        System.out.println();
 
         //bigger to smaller
         int i2 = 100;
-        byte b2 = (byte) i2; // CONVERSION - int is bigger then byte, so we must CAST it. We can the int type  - i2 to a byte type using (byte)
+        byte b2 = (byte) i2; // CONVERSION - int is bigger than byte, so we must CAST it. We can the int type  - i2 to a byte type using (byte)
 
         System.out.println(i2);
         System.out.println(b2);
+        System.out.println();
 
 
         int i3 = 500;
-        long l1 = 13; // I am goind from small --->>> big. int is smaller then long, so it will AUTOMATICALLY cast.
+        long l1 = 13; // I am going from small --->>> big. int is smaller than long, so it will AUTOMATICALLY cast.
 
         long l2 = 200;
-        int i4 = (int)l2;
+        int i4 = (int)l2; // long is bigger than int, we must CAST it
 
         System.out.println(l2);
         System.out.println(i4);
@@ -40,13 +42,14 @@ public class TyprCasting {
         System.out.println();
         double d2 = 40; //bigger to smaller
         byte b3 = (byte)d2;
+        System.out.println(d2);
         System.out.println (b3);
 
 
         System.out.println();
      // With the numbers outside the range .
         // Some of the data will be lost -  DATA LOST
-        //bigger to smaller .... narrowing casting
+        //bigger to smaller .... narrowing (сужать) casting
         int i6 = 200;
         byte b4 = (byte)i6;
 
