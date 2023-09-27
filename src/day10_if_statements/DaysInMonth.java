@@ -26,7 +26,7 @@ public class DaysInMonth {
         }
 
         if (is28) {
-            System.out.println("This month ahs 28 days");
+            System.out.println("This month has 28 days");
         }
 
 
