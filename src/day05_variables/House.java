@@ -31,7 +31,7 @@ public class House {
         boolean hasPark = true;
         double rating = 4.9;
 
-        String result = "The " + houseType + " on " + address + ", " + zipCode + " costs $" + price + "\nThe " + houseType + "has" + numberOfBathrooms + " bedrooms has ";
+        String result = "The " + houseType + " on " + address + ", " + zipCode + " costs $" + price + " \nThe " + houseType + " has " + numbersOfBedrooms + " bedrooms, has " + numberOfBathrooms + " bathrooms, and has " + numberOfKitchens + " kitchen ";
 
 
         System.out.println(result);
