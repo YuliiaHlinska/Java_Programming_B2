@@ -10,7 +10,7 @@ Syllables
  */
 public class Syllables {
     public static void main(String[] args) {
-        String str = "ja-va-script";
+        String str = "ja-va-script-bou-ohu";
         int countDash = 0;
 
         // Do the loop to get each character
